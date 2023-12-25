@@ -1,0 +1,306 @@
+*{
+    margin:auto 0px;
+}
+.layout
+{
+    width: 100%;
+}
+nav
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        list-style-type:none;
+        box-sizing:border-box; 
+        background:black;
+        height:auto;
+        width:100%;
+}
+label.logo
+    {
+    color :white;
+    font-size:35px;
+    line-height:100px;
+    padding:0 50px;
+    font-weight:bold;
+    }
+nav ul
+{
+    float: right;
+    margin-right: 20px;
+    
+}
+nav ul li
+{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a
+{
+    text-decoration:none;
+    color:goldenrod;
+    font-size: 19px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-weight: BOLD;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+a:hover
+    {
+       
+        transition: 0.5s;
+        background:none;
+    color:goldenrod;
+    }
+    .checkbtn
+    {
+    font-size:30px;
+    color:white;
+    float:right;
+    line-height: 80px;
+    margin-right:40px;
+    cursor:pointer;
+    display:none;
+     
+    }
+    #check{
+    display:none;
+    }
+    @media(max-width:952px){
+    label.logo{
+    font-size:30px;
+    padding-left:50px;
+    }
+    nav ul li a{
+    font-size:16px;
+    }
+    @media(max-width:858px){
+    .checkbtn{
+    display:block;
+    }
+    }
+    ul{
+        
+        width:100%;
+        height:100vh;
+        left:-100;
+        text-align:center;
+        transition:all 0.5s;
+        }
+    nav ul li{
+    display:block;
+    margin:50px 0;
+    line-height:30px;
+    }
+    nav ul li a{
+    font-size:20px;
+    }
+    
+   
+    
+} 
+.main
+{
+    background-color:white;
+    height: auto;
+    
+
+}
+.footer
+{
+    background-color: black;
+    height: 100px;;
+    width: 100%;
+    color: white;
+}
+
+/*chefs*/
+#chefs
+{
+  padding-top: 20px;
+}
+
+#chefs .section-heading h3
+{
+font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#chefs .section-heading p
+{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+#chefs .chef-item 
+{
+  text-align: center;
+  border: 2px solid #afafaf;
+  padding: 5px;
+  transition: all .5s;
+  border-radius: 3px;
+ 
+}
+#chefs .chef-item:hover
+{
+  border-color: black;
+}
+
+#chefs .chef-item:hover .down-content h4
+{
+  color: black;
+}
+
+#chefs .chef-item .thumb img
+{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#chefs .chef-item .down-content 
+{
+  padding: 20px 0px;
+  color:black;
+}
+#chefs .chef-item .down-content h4
+{
+  transition: all .3s;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+#chefs .chef-item .down-content span
+{
+  font-size: 14px;
+  color: black;
+}
+
+/*menu*/
+.menu-box{
+	padding: 30px ;
+}
+
+.heading-title{
+	margin-bottom: 30px;
+}
+.heading-title h2{
+	color: #010101;
+	font-size: 35px;
+	font-family: 'Arbutus Slab', serif;
+}
+.heading-title p{
+	font-size: 25px;
+	font-weight: 250;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.gallery-single{
+	margin: 20px 0px;
+}
+
+.gallery-single {
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.why-text {
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    right: 0;
+    height: 100%;
+    background: rgba(207, 166, 113, 0.9);
+    padding: 12px 12px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.why-text h4{
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: 'Arbutus Slab', serif;
+}
+.why-text p{
+	color: #ffffff;
+	font-size: 18px;
+	border-bottom: 1px dashed #010101;
+	margin: 0px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.why-text h5{
+	font-size: 28px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.gallery-single:hover .why-text{
+	bottom: 0px;
+}
+
+        /*CSS of aboutus*/
+        
+        .section-heading h2
+        {
+            padding-right: 120px;
+        }
+        .section-heading h6
+        {
+          font-family:'Times New Roman', Times, serif
+        }
+        
+        .left-text-content p
+        {
+          margin-bottom: 25px;
+        }
+        
+        .right-content
+        {
+          margin-left: 30px;
+        }
+       
+        /* reservation*/
+     
+            
+        .reservation
+        {
+            margin-left: 30px;
+            padding: 40px;
+            text-align: center;
+            font-size: 25px;
+           
+            
+        }
+      
+        .contact-form button
+         {
+            font-size: 13px;
+            color: white;
+            background-color: #fb5849;
+            padding: 15px;
+            width: 100%;
+            border: none;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+        .subtitle
+        {
+            
+	     
+	    
+	            font-size: 22px;
+	           text-align: center;
+	          margin: 20px 0px;
+              font-family: "Oswald";
+	
+	         margin-top:auto;
+	
+        }
+
+
+        
+       
